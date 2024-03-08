@@ -1,15 +1,13 @@
-# Minecraft Cloud Shell Tutorial & Info  
+# Minecraft Cloud Shell Info  
 
-In this project, we'll teach you host your very own Java/Bedrock Minecraft Server using `Google Cloud Shell`. This works under `Ubuntu/Debian` based Linux operation system. This project requires **NO CREDIT CARD** and the whole project is entirely **FREE**! You can make a server without costing you anything.  
-  
-[![Star History Chart](https://api.star-history.com/svg?repos=lordofwizard/mcserver&type=Date)](https://star-history.com/#lordofwizard/mcserver&Date)
+In this project, we'll teach you host your very own Java/Bedrock Minecraft Server using any cloud shell. This works under `Ubuntu/Debian` based Linux operation system. This project requires **NO CREDIT CARD** and the whole project is entirely **FREE**! You can make a server without costing you anything.  
 
 **The following features are added into this project are:**
 - Supports different type of Bedrock Servers
 - Clean & Friendly Interface
 - Supports Additional type of Java Server *(eg. Sponge, Paper, Fabric etc)*
 - Added Server Management
-- Easier functional scripts *(eg. [**./uninstall**](https://github.com/lordofwizard/mcserver/blob/main/README.md#uninstallremove-the-server) allows you to delete your server easily)*
+- Easier functional scripts *(eg. [**./uninstall**] allows you to delete your server easily)*
 - Instant EULA script setup *(Completly skipping this part which makes other people's life much easier to manage)*
 - Faster Server Installation *(It would probably take you like approx 30 seconds to setup a server)*
 
@@ -18,18 +16,17 @@ In this project, we'll teach you host your very own Java/Bedrock Minecraft Serve
 
 > [**Watch this Tutorial with ArcticWoof**](https://youtu.be/0j0ijkwddz8) `Outdated`
 
-> [**Submit any Issues here**](https://github.com/lordofwizard/mcserver/issues)
+> [**Submit any Issues here**](https://github.com/Primeplayer7870/Minecraft-server-installer/issues)
 
-> [**Join the Discord Server**](https://discord.gg/V2R26jBEzN)
-### To do list
+### Features
 - [x] Asking the user for the specific version they want to run of java.
 - [x] Add 3rd party sources in the list.
 - [x] Automatic message typer for typing something on the server. (AFK APP)
-- [x] More easy way to upload files on google drive.(use cloud-shell editor)
+- [x] More easy way to upload files on any drive.(use cloud-shell editor)
 - [x] Update script.
 ### Server Specs:
 - **OS:** Debian GNU/Linux 10 (buster) x86_64
-- **RAM:** 8GB to 16GB
+- **RAM:** >=2GB ram
 - **Location:** Based on your physical location.
 - **Storage:** Approx 5GB
 - **CPU:**  AMD EPYC (2) 7B12 @ 2.249GHz or Intel Xeon (4) @ 2.199GHz
@@ -38,13 +35,13 @@ You can view your exact specs by doing `./specinfo`
 
 ### Service Used:
 - [playit.gg](https://playit.gg)
-- [console.cloud.google.com](https://console.cloud.google.com)
+
 
 ## Installation 
 * Activate a [Google Cloud Shell](https://console.cloud.google.com/) on Google cloud.
 * Clone this GitHub Project into the Console:
 ```
-git clone https://github.com/lordofwizard/mcserver
+git clone [https://github.com/lordofwizard/mcserver](https://github.com/Primeplayer7870/Minecraft-server-installer)
 ```
 * Go into `mcserver` directory:
 ```
@@ -86,7 +83,7 @@ Do `Ctrl + W` then press `Y` to save and press `Enter` exit the text editor.
 ```
 cd ..
 ```
-- And [Restart the Server](https://github.com/lordofwizard/mcserver/blob/main/README.md#restarting-your-server).
+- And [Restart the Server](https://github.com/Primeplayer7870/Minecraft-server-installer/blob/main/README.md#restarting-your-server).
 * Now everything should be functional and ready. You can check if your server is up and running by doing `screen -r server`.
 ## Joining your Server
 * To join your server, start your server by doing `./startserver` *(If you haven't started it yet)* and do this command:
@@ -125,7 +122,7 @@ online-mode=false
 ```
 Do `Ctrl + W` then press `Y` to save and press `Enter` exit the text editor.
 
-- [Restart](https://github.com/lordofwizard/mcserver/blob/main/README.md#restarting-your-server) your server after you apply these changes.
+- [Restart](https://github.com/Primeplayer7870/Minecraft-server-installer/blob/main/README.md#restarting-your-server) your server after you apply these changes.
 
 ## Access Server Files
 If you want to access your server files, go to `Open Editor` on the top right.
@@ -218,4 +215,4 @@ Now you can host your very own Minecraft Server for both Java & Bedrock fast and
 
 > Tutorial Creator: *[DumbCaveSpider](https://github.com/DumbCaveSpider)*
 
-> Project Maintainer: *[Silent-Crafter](https://github.com/Silent-Crafter)*
+> Project Maintainer: *https://github.com/Primeplayer7870*
