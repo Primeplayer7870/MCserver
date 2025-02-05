@@ -42,7 +42,23 @@ killall screen
 screen -S server -d -m ./startJavaServer # Starting Java Server
 screen -S server -d -m ./startBedrockServer # Starting Bedrock Server
 screen -S afk -d -m ./startAfk #Starting AFK app aka bpytop.
+echo "-- Do you want to start Playit Now? --"
+echo "Type [1] for Yes"
+echo "Type [2] for No"
+
+StartServer=2
+read StartServer
+
+if [[ -z $StartServer ]]; then
+echo "> By Default, you selected 'No'."
+echo "> You can start the server by do ./startserver"
+
+elif [[ $StartServer == 1 ]]; then
 screen -S playit -d -m ./startPlayIt # Starting Playit
+
+elif [[ $StartServer == 2 ]]; then
+echo "You picked 'No'."
+echo "> You have opted to turn off Playit
 
 cd $MAIN_DIR/server
 screen -S server -d -m ./bin/php7/bin/php ./PocketMine-MP.phar --no-wizard --disable-ansi # Starting PocketmineMP
