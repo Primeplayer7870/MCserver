@@ -45,7 +45,7 @@ git clone https://github.com/Primeplayer7870/Minecraft-server-installer
 ```
 * Go into `mcserver` directory:
 ```
-cd mcserver
+cd  Minecraft-server-installer
 ```
 * Allow all commands executable:
 ```
